@@ -8,6 +8,6 @@ public class PetRepositoryTest {
 
     @Test
     public void testPetsHasData() {
-        assertTrue(new PetsReporitory().getAll().size() != 0);
+        assertTrue(new PetsRepository().getAll().size() != 0);
     }
 }

@@ -3,11 +3,9 @@ package com.felix.pets;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
-public class PetsReporitory {
+public class PetsRepository {
 
     public List<Pet> getAll() {
         List<Pet> list = new ArrayList<>();
