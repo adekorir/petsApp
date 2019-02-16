@@ -8,6 +8,6 @@ import static java.sql.DriverManager.*;
 public class DB {
 
     public static Connection connect() throws SQLException {
-        return getConnection("jdbc:mysql://localhost:3306/pet", "root", "");
+        return getConnection("jdbc:mysql://localhost:3306/farm", "root", "");
     }
 }
