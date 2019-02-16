@@ -20,8 +20,8 @@ public class MainPane extends BorderPane {
 
         final PetsTable table = new PetsTable(data);
 
-        Label lblInstructions = new Label("Click on refresh to refresh the table, Cancel to exit");
-        lblInstructions.setFont(Font.font("monospaced", FontWeight.BOLD, FontPosture.REGULAR, 14));
+        Label lblInstructions = new Label("Click on refresh to refresh the table, Cancel to exit".toUpperCase());
+        lblInstructions.setFont(Font.font("Sans", FontWeight.BOLD, FontPosture.REGULAR, 16));
 
         final Button btnRefresh = new Button("Refresh");
         btnRefresh.setOnAction(event -> this.refresh());
@@ -37,6 +37,7 @@ public class MainPane extends BorderPane {
 
         this.setTop(lblInstructions);
         this.setCenter(table);
+        this.setBottom(buttonBar);
     }
 
     private void refresh() {
