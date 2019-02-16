@@ -11,7 +11,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         BorderPane root = new BorderPane(new Label("Start"));
-        stage.setScene(new Scene(root, 400, 30));
+        stage.setScene(new Scene(root, 400, 300));
         stage.show();
     }
 
