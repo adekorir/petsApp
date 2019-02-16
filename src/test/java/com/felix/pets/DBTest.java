@@ -1,9 +1,10 @@
 package com.felix.pets;
 
-import static org.junit.Assert.*;
 import org.junit.Test;
 
 import java.sql.SQLException;
+
+import static org.junit.Assert.assertTrue;
 
 public class DBTest {
 

@@ -3,7 +3,7 @@ package com.felix.pets;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import static java.sql.DriverManager.*;
+import static java.sql.DriverManager.getConnection;
 
 public class DB {
 

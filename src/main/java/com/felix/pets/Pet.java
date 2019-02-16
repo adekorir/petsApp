@@ -41,72 +41,72 @@ public class Pet {
         return name.get();
     }
 
-    public StringProperty nameProperty() {
-        return name;
-    }
-
     public void setName(String name) {
         this.name.set(name);
+    }
+
+    public StringProperty nameProperty() {
+        return name;
     }
 
     public String getOwner() {
         return owner.get();
     }
 
-    public StringProperty ownerProperty() {
-        return owner;
-    }
-
     public void setOwner(String owner) {
         this.owner.set(owner);
+    }
+
+    public StringProperty ownerProperty() {
+        return owner;
     }
 
     public String getSpecies() {
         return species.get();
     }
 
-    public StringProperty speciesProperty() {
-        return species;
-    }
-
     public void setSpecies(String species) {
         this.species.set(species);
+    }
+
+    public StringProperty speciesProperty() {
+        return species;
     }
 
     public String getSex() {
         return sex.get();
     }
 
-    public StringProperty sexProperty() {
-        return sex;
-    }
-
     public void setSex(String sex) {
         this.sex.set(sex);
+    }
+
+    public StringProperty sexProperty() {
+        return sex;
     }
 
     public Date getBirth() {
         return birth.get();
     }
 
-    public ObjectProperty<Date> birthProperty() {
-        return birth;
-    }
-
     public void setBirth(Date birth) {
         this.birth.set(birth);
+    }
+
+    public ObjectProperty<Date> birthProperty() {
+        return birth;
     }
 
     public Date getDeath() {
         return death.get();
     }
 
-    public ObjectProperty<Date> deathProperty() {
-        return death;
-    }
-
     public void setDeath(Date death) {
         this.death.set(death);
+    }
+
+    public ObjectProperty<Date> deathProperty() {
+        return death;
     }
 
     @Override
