@@ -8,6 +8,8 @@ import javafx.scene.control.cell.PropertyValueFactory;
 public class PetsTable extends TableView<Pet> {
 
     public PetsTable(ObservableList<Pet> data) {
+        super(data);
+        
         TableColumn<Pet, String> colName = new TableColumn<>("Name");
         colName.setCellValueFactory(new PropertyValueFactory<>("name"));
         getColumns().add(colName);
